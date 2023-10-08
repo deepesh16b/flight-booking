@@ -1,0 +1,49 @@
+{
+  "book": [
+    {
+      "id": 5,
+      "firstname": "Alimatou",
+      "lastname": "Sane",
+      "dateOfBooking": "10/06/2022",
+      "tickets": "One Way",
+      "price": "1 200 000",
+      "destination": "Paris"
+    },
+    {
+      "id": 6,
+      "firstname": "Soumeya",
+      "lastname": "Traore",
+      "dateOfBooking": "01/05/2022",
+      "tickets": "One Way",
+      "price": "1 400 000",
+      "destination": "Miami"
+    },
+    {
+      "id": 7,
+      "firstname": "Fanta",
+      "lastname": "Kante",
+      "dateOfBooking": "19/02/2022",
+      "tickets": "One Way",
+      "price": "400 000",
+      "destination": "Mali"
+    },
+    {
+      "id": 8,
+      "firstname": "Maria",
+      "lastname": "Mendy",
+      "dateOfBooking": "12/02/2022",
+      "tickets": "Road Trip",
+      "price": "1 800 000",
+      "destination": "Ottawa"
+    },
+    {
+      "firstname": "Ka",
+      "lastname": "Anna",
+      "dateOfBooking": "2022-09-09",
+      "tickets": "Road Trip",
+      "price": "1 200 000",
+      "destination": "2",
+      "id": 10
+    }
+  ]
+}

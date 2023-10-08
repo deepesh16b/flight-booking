@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Poppins";
+}
+.navbar{
+    position: sticky;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar a{
+    color: black;
+}
+.navbar .logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar .nav-link ul{
+    display: flex;
+}
+.navbar .nav-link ul li{
+    margin: 0 25px;
+}
+.nav-link ul li a{
+    font-size: 15px;
+}
+.nav-link ul li a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+    width: 100px;
+}
+footer{
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background-color: black;
+    width: 100vh;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize; 
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://www.fijiairways.com/sites/default/files/2022-06/220224003FA%20Route%20Map.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+.booking-form-box{
+    max-width: 350px;
+    border: 1px solid #ced4da;
+    margin: 2% auto 0;
+}
+.radio-btn{
+    margin: 0 20px;
+}
+.radio-btn .btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after{
+    content: '';
+    background-color: black;
+    transition: 0.5s;
+}
+.radio-btn span{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.booking-form{
+    padding: 0 20px 20px;
+}
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+input::placeholder{
+    color: #fff !important;
+}
+.input-grp{
+    width: 151px;
+    display: inline-block;
+    padding: 10px;
+}
+.form-control{
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.select-date::-webkit-calender0-picker-indicator{
+    background: transparent !important;
+}
+.custom-select{
+    color: #fff !important;
+    font-size: 12px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+.custom-select option{
+    color:  #333;
+}
+.flight{
+    width: 100%;
+    padding: 9px 0 !important;
+    font-size: 12px !important;
+    border: 1px solid #ced4da !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+.flight:hover{
+    background: #fff !important;
+    color: #000 !important;
+    transition: 0.5s;
+}
